@@ -50,7 +50,7 @@ e2b sandbox info [options] <sandboxID>
 
 ### Options
 
-- `-f, --format <format>`: output format, eg. json, pretty
+- `-f, --format <format>`: output format, eg. json, pretty (default: "pretty")
 
 ## e2b sandbox list
 
@@ -72,7 +72,7 @@ e2b sandbox list [options]
 - `--started-after <date>`: filter by start time, only sandboxes started at or after this time are returned, eg. 2025-01-01T00:00:00Z
 - `-o, --order <order>`: sort order by start time, asc or desc (default: desc)
 - `-l, --limit <limit>`: limit the number of sandboxes returned (default: 1000, 0 for no limit)
-- `-f, --format <format>`: output format, eg. json, pretty
+- `-f, --format <format>`: output format, eg. json, pretty (default: "pretty")
 
 ## e2b sandbox kill
 
@@ -274,7 +274,7 @@ e2b sandbox snapshot list [options] [sandboxID]
 
 - `-n, --name <name>`: filter by snapshot name or ID, optionally tag-qualified, eg. my-snapshot:v1
 - `-l, --limit <limit>`: limit the number of snapshots returned (default: 1000, 0 for no limit)
-- `-f, --format <format>`: output format, eg. json, pretty
+- `-f, --format <format>`: output format, eg. json, pretty (default: "pretty")
 
 ## e2b sandbox snapshot delete
 

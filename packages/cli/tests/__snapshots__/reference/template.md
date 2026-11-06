@@ -53,7 +53,7 @@ e2b template list [options]
 
 - `-t, --project <project-id>`: specify the project ID that the operation will be associated with. You can find project ID in the project settings in the E2B dashboard (https://e2b.dev/dashboard?tab=general).
 - `-l, --limit <limit>`: limit the number of templates returned (default: 1000 for pretty output, no limit for json; 0 for no limit)
-- `-f, --format <format>`: output format, eg. json, pretty
+- `-f, --format <format>`: output format, eg. json, pretty (default: "pretty")
 
 ## e2b template init
 
